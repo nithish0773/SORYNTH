@@ -1,0 +1,27 @@
+# Flutter / Android temporary files
+**/.dart_tool/
+**/build/
+**/.gradle/
+**/.flutter-plugins-dependencies
+
+# Dashboard temporary files
+**/node_modules/
+**/dist/
+dashboard/supabase/.temp/
+dashboard/backups/
+
+# Secrets and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/supabase_credentials.dart
+**/key.properties
+*.jks
+*.keystore
+
+# Local audit and scratch files
+dashboard/create-operator-audit.txt
+mobile/scratch_api_test.dart
+
+# Supabase local temporary state
+dashboard/supabase/.temp/
